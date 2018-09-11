@@ -1,6 +1,3 @@
-# Hypothesis - umpires reward midfielders with more brownlow votes
-# because they see clearances first hand. There we will see a 
-# high correlation with clearances and brownlow votes. 
 
 #importing rvest
 library(rvest)
@@ -22,8 +19,8 @@ votes17 <- brownlow %>%
   html_table(fill = TRUE)
 
 #checking the dataframe
-summary(data_17)
-summary(votes17)
+str(data_17)
+str(votes17)
 
 #cleaning and preparing the dataframe
 
